@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="light-mode">
+  <header class="hero">
+    <h1>¡Hola! Soy Miguel Angel</h1>
+    <p>Desarrollador Web | App Developer</p>
+    <div class="stats">
+      <div><strong>0</strong><br>Años de trabajo</div>
+      <div><strong>+6</strong><br>Proyectos</div>
+      <div><strong>+5</strong><br>Clientes felices</div>
+    </div>
+    <a href="Curriculum Profesional.pdf" class="btn-cv" download>Descargar CV</a>
+    <button id="themeToggle" class="toggle-theme"><i class="fas fa-moon"></i> Cambiar Modo</button>
+  </header>
+
+  <section class="skills" id="skills">
+    <h2>Habilidades</h2>
+    <div class="skills-container">
+      <!-- Tus tarjetas de habilidades aquí -->
+      <div class="skill-card"><i class="fab fa-html5 skill-icon"></i><h4>HTML</h4><p>Básico</p></div>
+      <div class="skill-card"><i class="fab fa-css3-alt skill-icon"></i><h4>CSS</h4><p>Básico</p></div>
+      <div class="skill-card"><i class="fab fa-js skill-icon"></i><h4>JavaScript</h4><p>Básico</p></div>
+      <div class="skill-card"><i class="fas fa-database skill-icon"></i><h4>MySQL</h4><p>Básico</p></div>
+      <div class="skill-card"><i class="fas fa-code skill-icon"></i><h4>C++</h4><p>Básico</p></div>
+      <div class="skill-card"><i class="fas fa-cube skill-icon"></i><h4>Unity 3D</h4><p>Intermedio</p></div>
+      <div class="skill-card"><i class="fas fa-vr-cardboard skill-icon"></i><h4>Realidad Virtual / Aumentada</h4><p>Intermedio</p></div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>Proyectos</h2>
+    <p class="projects-subtitle">Estos son algunos de los proyectos en los que he trabajado...</p>
+    <div class="project-list">
+      <!-- Proyecto 1 -->
+      <div class="project-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/pet.jpeg" alt="Aplicación PETLOVERS AR">
+            <div class="project-info">
+              <h3>Aplicación PETLOVERS AR</h3>
+              <p>App AR con productos para mascotas.</p>
+              <span>Tecnologías: Unity, AR Foundation</span>
+            </div>
+          </div>
+          <div class="card-back">
+            <img src="img/pet.jpeg" alt="Vista trasera del proyecto">
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 2 -->
+      <div class="project-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/petlovers.png" alt="PetLovers Web">
+            <div class="project-info">
+              <h3>Web Tienda Mascotas</h3>
+              <p>Web desarrollada para productos de mascotas.</p>
+              <span>Tecnologías: Html, CSS, JavaScript</span>
+            </div>
+          </div>
+          <div class="card-back">
+            <img src="img/petlovers.png" alt="Vista trasera">
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 3 -->
+      <div class="project-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/fantasmita.jpeg" alt="Juego 2D Fantasmita">
+            <div class="project-info">
+              <h3>Juego 2D Fantasmita</h3>
+              <p>Recolecta diamantes en distintos niveles con dificultad progresiva.</p>
+              <span>Tecnologías: Unity, C#</span>
+            </div>
+          </div>
+          <div class="card-back">
+            <img src="img/fantasmita.jpeg" alt="Vista trasera">
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 4 -->
+      <div class="project-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/gym.jpeg" alt="Gym Image Target">
+            <div class="project-info">
+              <h3>Gym Image Target</h3>
+              <p>AR con modelo 3D en caminadora al escanear una imagen.</p>
+              <span>Tecnologías: Unity, EasyAR</span>
+            </div>
+          </div>
+          <div class="card-back">
+            <img src="img/gym.jpeg" alt="Vista trasera">
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 5 -->
+      <div class="project-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/xv.png" alt="Tienda de Modas">
+            <div class="project-info">
+              <h3>Tienda de Modas</h3>
+              <p>Página web básica para tienda de moda.</p>
+              <span>Tecnologías: HTML, CSS, JavaScript</span>
+            </div>
+          </div>
+          <div class="card-back">
+            <img src="img/xv.png" alt="Vista trasera">
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 6 -->
+      <div class="project-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/shooter.png" alt="Shooter 3D Zombies">
+            <div class="project-info">
+              <h3>Shooter 3D Zombies</h3>
+              <p>Juego FPS con oleadas de zombies y recolección de objetos.</p>
+              <span>Tecnologías: Unity, C#, XRToolkit</span>
+            </div>
+          </div>
+          <div class="card-back">
+            <img src="img/shooter.png" alt="Vista trasera">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Miguel Angel. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
